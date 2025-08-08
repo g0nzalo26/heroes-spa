@@ -57,7 +57,7 @@ export const SearchPage = () => {
             (q === '')
               ? <div className="alert alert-primary">Search a Hero</div>
               : (heroes.length === 0)
-                && <div className="alert alert-danger">There's no results for {q}</div>
+                && <div className="alert alert-danger">No hay resultados para {q}</div>
           }
 
           {
