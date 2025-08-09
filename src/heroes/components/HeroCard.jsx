@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 export const HeroCard = ({ id, superhero, publisher, alter_ego, first_appearance, characters }) => {
 
-    const heroUrl = `/assets/heroes/${ id }.jpg`
+    const heroUrl = `/heroes/${ id }.jpg`
 
     const charactersByHero = <p>{characters}</p>
 
